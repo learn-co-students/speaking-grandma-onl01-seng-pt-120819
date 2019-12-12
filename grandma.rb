@@ -11,3 +11,13 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+require 'pry'
+def speak_to_grandma("HEY GRANDMA")
+  puts "HUH?!SPEAK UP,SONNY!"
+  if "HEY GRANDMA".upcase 
+    return "NO, NOT SINCE 1938"
+    elsif "HEY GRANDMA" == " I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN"
+  
+  binding.pry
+  
